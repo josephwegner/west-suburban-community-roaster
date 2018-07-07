@@ -1,0 +1,26 @@
+{
+  "name": "west-suburban-community-roaster",
+  "version": "1.0.0",
+  "description": "website for West Suburban Community Roaster",
+  "main": "index.js",
+  "engines": {
+    "node": "10.6.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephwegner/west-suburban-community-roaster.git"
+  },
+  "author": "Joe Wegner",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/josephwegner/west-suburban-community-roaster/issues"
+  },
+  "homepage": "https://github.com/josephwegner/west-suburban-community-roaster#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
