@@ -7,7 +7,8 @@
     "node": "10.6.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "start": "node src/server/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,20 @@
   },
   "homepage": "https://github.com/josephwegner/west-suburban-community-roaster#readme",
   "dependencies": {
+    "autoprefixer": "^8.6.5",
+    "bootstrap": "^4.1.1",
+    "css-loader": "^1.0.0",
     "express": "^4.16.3",
-    "pug": "^2.0.3"
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.1",
+    "postcss-loader": "^2.1.5",
+    "precss": "^3.1.2",
+    "pug": "^2.0.3",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
   }
 }
