@@ -9,3 +9,8 @@
     .d-#{$breakpoint}-inline-block { display: inline-block !important; }
   }
 }
+
+.sneak-off-page {
+  position: absolute;
+  left: -5000px;
+}
