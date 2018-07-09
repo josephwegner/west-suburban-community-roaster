@@ -1,0 +1,11 @@
+.top-0 { top: 0; }
+.bottom-0 { bottom: 0; }
+.left-0 { left: 0 }
+.right-0 { right: 0 }
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    .d-#{$breakpoint}-inline { display: inline !important; }
+    .d-#{$breakpoint}-inline-block { display: inline-block !important; }
+  }
+}

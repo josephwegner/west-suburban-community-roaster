@@ -1,4 +1,43 @@
 extends ./layouts/main.pug
 
 block body
-  h1 Hello, WSCR!
+  .container
+    .row
+      .col-12
+        h2.text-center.mt-4
+          span.display-4.font-weight-extra-bold.text-uppercase.d-block.mb-0.text-coffee #[span.text-dark.d-none.d-sm-inline-block A] Community-Supported
+          span.display-4.font-weight-extra-bold.text-uppercase.d-block.mb-0 Coffee Roaster
+    .row.mt-5
+      .col-12.col-sm-4.mb-3
+        .about-us.w-100.h-sm-100.height-5
+      .col-12.col-sm-8.font-weight-light
+        p
+          | West Suburban Community Roaster is a community-support coffee roastery, focused on providing excellent coffee beans that specifically match your taste. We roast locally and personally - each batch of coffee is roasted here in the Western Suburbs of Chicago, and is carefully chosen to match the taste and methods of the community. Coffee beans are chosen and purchased collaboratively between us and our customers, allowing us to provide decent prices for a tailored roasting process.
+        p
+          | West Suburban Community Roaster is a passion project by #[a.text-coffee(href="https://www.joewegner.com") Joe Wegner]. He began roasting coffee with a belief that a bit of science and a lot of care could earn him artisan-level coffee that had the exact flavors he wanted. With much practice (and many smoky kitchens), Joe found the right beans, the right equipment, and the right process. With the method nailed down, he believes he can work with the community around him to provide the perfect coffee bean tailored to each person.
+
+  .bg-beans.my-5.py-5
+    .container
+      .row
+        .col-12.h5.text-white
+          h4.display-4.font-weight-bold.text-center
+            p We purchase all of our raw beans well above #[span.text-creamer Fair Trade] minimums. We #[span.text-creamer roast locally], and prepare #[span.text-creamer fresh beans] within days of delivery.
+
+  .container.mb-5
+    .row.mt-5
+      .col-12.col-sm-8
+        h4.text-coffee What is a community-supported roaster?
+        p.mb-5.font-weight-light A community-supported roaster prepares a specific amount of coffee for its members each week. As opposed to a traditional coffee roastery that produces enough coffee to fill their shelves and hopes the supply and demand will even out, we are able to roast exactly what we need and not produce any waste. Raw coffee beans are pre-purchased for customers so that we have exactly what we need in inventory, with no worries of beans going stale.
+
+
+        h4.text-coffee Is the coffee really better?
+        p.mb-5.font-weight-light Roasting good coffee requires three things to get it right - a solid roasting method, fresh beans (before #[span.font-italic and] after roasting), and the #[span.font-italic right] beans. If you're buying beans from a large-distributon roaster, they probably have a good roasting method and roast regularly enough to have fresh green beans. However, their beans aren't delivered freshly roasted, and - most importantly - #[span.font-weight-regular the beans are not tailored to you]. Most roasteries have exceptional taste for coffee beans, but they don't know what taste you like. They don't know how you brew your coffee. Running a community-supported roaster lets us keep track of exactly what you want your coffee to be. How you brew, what time you drink coffee, #[span.font-italic why] you drink coffee, iced or hot, creamer or not - these are all things we will keep track of while purchasing beans and choosing how to roast for you.
+
+        h4.text-coffee OK, can I get some coffee already?
+        p.font-weight-light Probably not yet! We do #[a.text-coffee(href="/contact") sell coffee directly], but our supply is spotty and it's not the way we like to work with our customers. The best way to get some coffee is keep an eye on our #[a.text-coffee(href="/getcoffee") coffee availability] and sponsor some beans.
+        p.font-weight-light When we have availability, we will allow people to sponsor the purchase of bag of raw green beans. When you purchase a sponsorship, we will work with you to determine the best beans for you, and purchase them. With your sponsorship, you will receive credits to order roasted coffee when you need a refill.
+        p.mb-5.font-weight-light Coffee is roasted weekly. Early in the week we will reach out to you to confirm that you are ready for more coffee, and as soon as the roasting is done we will deliver it to you. The actual beans you get may be the ones you sponsored, or it may be another bean we had in inventory that we think you'll love.
+
+      .col-4.d-none.d-sm-block
+        .faq1.w-100.h-50.mb-4
+        .faq2.w-100.h-50.mt-4

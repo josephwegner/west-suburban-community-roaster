@@ -1,0 +1,24 @@
+.home {
+  .about-us {
+    background-image: url('/images/frenchpress.jpg');
+    background-size: cover;
+    background-position: top right;
+  }
+
+  .faq1 {
+    background-image: url('/images/moka.jpg');
+    background-size: cover;
+    background-position: center right;
+  }
+
+  .faq2 {
+    background-image: url('/images/espresso.jpg');
+    background-size: cover;
+    background-position: center left;
+  }
+
+  .bg-beans {
+    background-image: url('/images/beans.jpg');
+    background-size: cover;
+  }
+}

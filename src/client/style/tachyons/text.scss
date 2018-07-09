@@ -1,0 +1,13 @@
+.font-weight-extra-bold { font-weight: $font-weight-extra-bold; }
+
+@include media-breakpoint-down(md) {
+  html {
+    font-size: .9rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  html {
+    font-size: .55rem;
+  }
+}
