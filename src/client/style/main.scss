@@ -2,6 +2,10 @@
 @import "~bootstrap/scss/bootstrap";
 @import 'tachyons/index';
 
+.bg-beans {
+  background-image: url('/images/beans.jpg');
+  background-size: cover;
+}
 
 // Page-Specific
 @import 'pages/home'

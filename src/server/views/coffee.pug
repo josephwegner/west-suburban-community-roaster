@@ -1,0 +1,26 @@
+extends ./layouts/main.pug
+
+block hero-content
+  .position-absolute.w-100.bottom-0.left-0
+    h4.mb-0.mt-5.display-4.text-white.text-center.w-75.mx-auto.font-weight-light We work with our customers to purchase beans they love.
+    form.header-newsletter.mb-5(action="https://joewegner.us18.list-manage.com/subscribe/post?u=9a7b34459e817190651db07ce&amp;id=646fe8bc54" method="POST" target="_blank" novalidate)
+      .mt-5.mb-3.h5.font-weight-normal.text-white.text-center but right now there's none available. Signup to hear when we're ready.
+      .input-group.w-75.w-sm-50.mx-auto
+        input.w-100.border.p-3.super-rounded.bg-white-80(type="email" value="" name="EMAIL" placeholder="coffeelover@omgcoffeeissogood.com")
+        .sneak-off-page(aria-hidden="true")
+          input(type="text" name="b_9a7b34459e817190651db07ce_646fe8bc54" tabindex="-1" value="")
+        input.bg-primary.text-white.position-absolute.right-0.top-0.super-rounded.border.py-2.px-3.mt-2.mr-2(type="submit" value="Sign Up" name="subscribe")
+
+block body
+  h1.mt-5.display-3.text-center Beans that you'll love
+  h4.text-center roasted, thoughtfully, for you.
+  .container.mt-5
+    ul.list-unstyled.row
+      each bean in beans
+        li.col-6.border.rounded.p-3
+          span.font-weight-normal.h4.d-block.text-center=bean.name
+          span.font-weight-light.font-italic.d-block.text-center.mb-3=bean.origin
+          p.font-weight-light=bean.description
+          p.text-center.mt-2
+            span.font-weight-bold Preferred Roast Level: 
+            span.font-weight-light=bean.roastMethod
