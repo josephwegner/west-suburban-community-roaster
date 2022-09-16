@@ -24,7 +24,7 @@
   "homepage": "https://github.com/josephwegner/west-suburban-community-roaster#readme",
   "dependencies": {
     "autoprefixer": "^8.6.5",
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^4.3.1",
     "css-loader": "^1.0.0",
     "express": "^4.16.3",
     "lodash": "^4.17.10",
